@@ -5,3 +5,7 @@ var updatePlaylist=(playlist,artistname,Hello)=>{
 playlist['Phil Ochs']='Slowdive';
 return playlist;
 }
+var removeFromPlaylist=(playlist,artistname)=>{
+delete playlist.Adele;
+return playlist;
+}
