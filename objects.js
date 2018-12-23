@@ -6,6 +6,6 @@ playlist['Phil Ochs']='Slowdive';
 return playlist;
 }
 var removeFromPlaylist=(playlist,artistname)=>{
-delete playlist.Adele;
+delete playlist.Slowdive;
 return playlist;
 }
